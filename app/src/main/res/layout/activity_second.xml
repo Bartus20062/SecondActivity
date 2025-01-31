@@ -8,19 +8,41 @@
     android:gravity="center_vertical"
     android:background="#F0D47B"
     tools:context=".SecondActivity">
-<TextView
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
-    android:text="Second Activity!"
-    android:textSize="20dp"
-    android:textStyle="bold" />
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Second Activity!"
+        android:textSize="20dp"
+        android:textStyle="bold" />
     <Button
         android:id="@+id/buttonBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Zamknij aktywnośc"/>
+        android:text="Zamknij aktywnośc" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Imie"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="email"/>
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nazwisko"/>
+
 </LinearLayout>
